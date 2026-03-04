@@ -45,7 +45,7 @@ function TopNav({ user, onLogout }) {
         <a href="http://localhost:5176" style={styles.link}>App3</a>
       </div>
       <div>
-        <span style={styles.user}>{user.name}</span>
+        <span style={styles.user}>{user.sub}</span>
         <button style={styles.logout} onClick={onLogout}>Logout</button>
       </div>
     </div>
