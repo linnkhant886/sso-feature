@@ -1,0 +1,12 @@
+{
+  "name": "auth-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "oidc-provider": "^8.8.1"
+  }
+}
